@@ -5,6 +5,7 @@ public class response {
 	private String status;
 	private String success;
 	private String  respo;
+        private String req;
 	@Override
 	public String toString() {
 		return "response [status=" + status + ", value=" + value + "]";
