@@ -23,11 +23,11 @@ public class response {
 	public void setValue(value value) {
 		this.value = value;
 	}
+	public void setrepo(Repo value){
+         this.value=value;
+       }
 	public String respo(){
   return respo;
-}
-	
-	
-	
+  }
 
 }
