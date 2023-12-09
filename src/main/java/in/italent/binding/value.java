@@ -3,6 +3,7 @@ package in.italent.binding;
 public class value {
 	private String type;
 	private String num;
+	private String max;
 	@Override
 	
 	public String toString() {
