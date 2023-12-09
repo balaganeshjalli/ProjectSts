@@ -2,7 +2,9 @@ package in.italent.binding;
 
 public class value {
 	private String type;
+	private String num;
 	@Override
+	
 	public String toString() {
 		return "value [type=" + type + ", $=" + $ + "]";
 	}
