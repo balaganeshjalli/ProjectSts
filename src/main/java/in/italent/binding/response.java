@@ -26,6 +26,8 @@ public class response {
 	public void setrepo(Repo value){
          this.value=value;
        }
-		
+	public String respo(){
+  return respo;
+  }
 
 }
