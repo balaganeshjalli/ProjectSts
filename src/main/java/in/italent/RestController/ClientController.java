@@ -16,6 +16,7 @@ public class ClientController {
 	
 	@GetMapping("/modern")
 	public String invokeRest() {
+		System.out.println("invokeRest");
 		serviceClient.invokeUrl();
 		return "success";
 	}
