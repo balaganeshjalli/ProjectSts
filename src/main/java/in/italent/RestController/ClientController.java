@@ -24,7 +24,9 @@ public class ClientController {
 		@GetMapping("/token")
 		public String token() {
 			System.out.println("Client token");
+
 			tokenclass.invokeToken();
+			System.out.println("Successfully Completed");
 			return "token generated";
 	
 		}
